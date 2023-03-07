@@ -7,5 +7,6 @@ public class Carro {
     public void ligar(){
         System.out.println("Ligando!!!");
         m.ligar();
+        r.rodar();
     }
 }
