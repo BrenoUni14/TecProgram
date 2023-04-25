@@ -9,10 +9,6 @@ public class Boletim {
 
     //Construtor com parâmetros
 
-    public Boletim(double n1, double n2) {
-        this.n1 = n1;
-        this.n2 = n2;
-    }
 
     //Construtor sem parâmetros
     public Boletim(){
@@ -40,7 +36,7 @@ public class Boletim {
 
     //verificará o conceito do aluno baseado na média
     String verificaConceito(){
-        String conceito="";
+        String conceito = "";
         if (media >=8 && media <=10){
             conceito = "A";
         }

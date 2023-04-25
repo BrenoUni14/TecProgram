@@ -1,25 +1,27 @@
 package Vetores;
 
 public class Exemplo {
-    public static void main(String[] args){
-        final int tam = 30;
-        int nums[] = new int [tam];
 
-        for (int i = 0; i < nums.length; i++){
-            nums[i] = i + 10;
-            if (nums[i]%2 == 0){
-                switch (nums[i]){
-                    case 20:
-                        System.out.println("Vinte");
-                        break;
-                    case 30:
-                        System.out.println("Trinta");
-                        break;
-                    default:
-                        System.out.println(nums[i] + " ");
-                        break;
-                }
-            }
+    public static void main(String[] args) throws Exception {
+        Vetor2 vetor = new Vetor2(5);
+
+        try{
+            vetor.adiciona("elemento 1");
+            vetor.adiciona("elemento 2");
+            vetor.adiciona("elemento 3");
+        }catch (Exception e){
+            e.printStackTrace();
         }
+
+        System.out.println(vetor.tamanho());
+        System.out.println(vetor.toString());
+
+        System.out.println(vetor.adicionaLugar(0, "elemento 0"));
+        System.out.println(vetor.tamanho());
+        System.out.println(vetor.toString());
+
+        System.out.println(vetor.busca(1));
+
+
     }
 }
