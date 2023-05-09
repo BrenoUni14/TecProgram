@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BDConnect/BDConnect.iml" filepath="$PROJECT_DIR$/BDConnect/BDConnect.iml" />
       <module fileurl="file://$PROJECT_DIR$/TecProgram.iml" filepath="$PROJECT_DIR$/TecProgram.iml" />
     </modules>
   </component>
